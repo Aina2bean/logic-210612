@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/*=== reset css ===*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*=== 各エリアの間隔調整 ===*/
+body {
+    margin: 20px;
+}
+h1,h2 {
+    margin-bottom: 10px;
+}
+.guide-area {
+    margin-bottom: 40px;
+}
+
+/*=== 出力結果 ===*/
+ul.result {
+    list-style-type: none;
+}
+ul.result li.multi {
+    font-weight: bold;
+}
